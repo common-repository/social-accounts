@@ -1,0 +1,9 @@
+.social-accounts img{margin-right:10px; vertical-align:middle;}
+.social-accounts li{padding:2px 0;}
+
+.social-accounts.titles img{display:none;}
+
+.social-accounts.icons{overflow:hidden;}
+.social-accounts.icons .account{float:left; padding:0;}
+.social-accounts.icons .account a{display:block; margin:0 5px 5px 0;}
+.social-accounts.icons .account span{display:none;}

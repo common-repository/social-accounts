@@ -1,0 +1,22 @@
+#icon-options-social-accounts{background:url(images/plugin-icon.png) no-repeat center;}
+
+#social_settings .icons{background:#eaeaea; border-radius:3px; display:inline-block; margin:5px; line-height:1em; padding:8px 10px; vertical-align:middle;}
+#social_settings .icons img{vertical-align:middle;}
+
+#social_accounts tr{cursor:move;}
+#social_accounts img{margin-right:5px; vertical-align:middle;}
+#social_accounts th .name{width:130px;}
+#social_accounts th label{vertical-align:middle;}
+#social_accounts .names{display:inline-block; vertical-align:middle; width:130px;}
+#social_accounts .names .alt_name{background:#FFF no-repeat 3px center; padding-left:25px;}
+
+#social_accounts .upload{background-color:#ededed; border-radius:2px; cursor:pointer; display:inline-block; height:32px; letter-spacing:-0.31em; margin-right:10px; padding:10px; text-align:center; position:relative; width:32px;}
+#social_accounts .upload > *{letter-spacing:normal;}
+#social_accounts .upload img{margin:0;}
+#social_accounts .upload::before{content:''; display:inline-block; height:100%; margin-left:-1px; position:relative; vertical-align:middle; visibility:hidden; width:1px;}
+#social_accounts .upload:hover .edit_icon{background:#fff url(images/icon-edit.png) no-repeat center; border:0; border-radius:30%; cursor:pointer; height:15px; position:absolute; right:-5px; top:-5px; width:15px;}
+#social_accounts .remove_icon{background:#fff url(images/icon-delete.png) no-repeat center; border:0; border-radius:30%; cursor:pointer; height:15px; position:absolute; right:-5px; top:-5px; width:15px; z-index:20;}
+
+#social_accounts .extra_value{padding-right:22px;}
+#social_accounts .remove{cursor:pointer; background:none; border:none; opacity:.6; padding:0; position:relative; margin-left:-25px;}
+#social_accounts .remove:hover{opacity:1;}
